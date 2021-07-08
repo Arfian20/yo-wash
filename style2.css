@@ -1,0 +1,310 @@
+* {
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+.navbar {
+  position: relative;
+  display: flex;
+  z-index: 200000;
+  width: 100%;
+}
+.navbar:after {
+  content: "";
+  position: absolute;
+  top: 70%;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  border-bottom: 5px solid #4187f6;
+  margin-top: 5px;
+}
+.navbar ul {
+  list-style: none;
+  margin-left: 20vh;
+  background: black;
+}
+.navbar ul li {
+  color: rgb(216, 210, 210);
+  display: inline-block;
+  margin-left: 15vh;
+  margin-top: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar ul li:hover {
+  color: #4187f6;
+  cursor: pointer;
+}
+.navbar ul li .kc:hover {
+  color: rgb(216, 210, 210);
+}
+.lg img {
+  position: relative;
+  right: -5vh;
+  width: 300px;
+  margin-top: 3px;
+}
+.sub1 {
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+}
+.sub1 h1 {
+  color: white;
+  font-size: 60px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.sub1 p {
+  width: 700px;
+  margin-left: 50vh;
+  word-spacing: 2px;
+  margin-top: 20px;
+}
+.bts {
+  border-bottom: 2px solid #4187f6;
+  width: 600px;
+  margin-top: 70px;
+  margin-left: 383px;
+}
+.ktk {
+  width: 150px;
+
+  margin-top: -21px;
+  margin-left: 610px;
+}
+.ktk p {
+  color: white;
+  text-align: center;
+  background: #4187f6;
+  padding: 10px 20px;
+  border-radius: 6px;
+}
+.daftar1 {
+  position: relative;
+  background: white;
+  width: 200px;
+  height: 400px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+.mobil {
+  position: relative;
+  background: white;
+  width: 200px;
+  height: 400px;
+  margin-left: 195px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  border-radius: 20px;
+  float: left;
+}
+.mobil h3 {
+  position: absolute;
+  background: #4187f6;
+  margin-left: 26px;
+  margin-top: 50px;
+  padding: 40px 35px;
+  border-radius: 10px;
+  color: white;
+}
+.mobil h4 {
+  position: absolute;
+  background: white;
+  margin-left: 60px;
+  margin-top: 170px;
+  color: black;
+}
+.mobil p {
+  position: absolute;
+  background: white;
+  margin-left: 26px;
+  margin-top: 200px;
+
+  color: black;
+}
+.mobil a {
+  position: absolute;
+  text-decoration: none;
+  background: #4187f6;
+  border-radius: 10px;
+  border: #4187f6;
+  margin-left: 65px;
+  margin-top: 320px;
+  padding: 10px 20px;
+  color: white;
+}
+.bts2 {
+  border-bottom: 2px solid #4187f6;
+  width: 600px;
+  margin-top: 550px;
+  margin-left: 383px;
+}
+.ktk2 {
+  width: 150px;
+  margin-top: -21px;
+  margin-left: 610px;
+}
+.ktk2 p {
+  color: white;
+  text-align: center;
+  background: #4187f6;
+  padding: 10px 20px;
+  border-radius: 6px;
+}
+.mobil a:hover {
+  background: white;
+  border: 2px solid #4187f6;
+  color: #4187f6;
+  cursor: pointer;
+}
+
+.motor {
+  position: relative;
+  background: white;
+  width: 200px;
+  height: 400px;
+  margin-left: 195px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  border-radius: 20px;
+  float: left;
+}
+.motor h3 {
+  position: absolute;
+  background: #4187f6;
+  margin-left: 26px;
+  margin-top: 50px;
+  padding: 40px 35px;
+  border-radius: 10px;
+  color: white;
+}
+.motor h4 {
+  position: absolute;
+  background: white;
+  margin-left: 60px;
+  margin-top: 170px;
+  color: black;
+}
+.motor p {
+  position: absolute;
+  background: white;
+  margin-left: 26px;
+  margin-top: 200px;
+
+  color: black;
+}
+.motor a {
+  position: absolute;
+  text-decoration: none;
+  background: #4187f6;
+  border-radius: 10px;
+  border: #4187f6;
+  margin-left: 65px;
+  margin-top: 320px;
+  padding: 10px 20px;
+  color: white;
+}
+.motor a:hover {
+  background: white;
+  border: 2px solid #4187f6;
+  color: #4187f6;
+  cursor: pointer;
+}
+@media (max-width: 1100px) {
+  .container {
+    width: 410px;
+  }
+  .navbar {
+    position: relative;
+    display: flex;
+    z-index: 200000;
+    width: 100%;
+  }
+  .navbar:after {
+    margin-top: 5px;
+  }
+  .navbar ul {
+    margin-left: -60px;
+  }
+  .navbar ul li {
+    color: rgb(216, 210, 210);
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .lg img {
+    position: relative;
+    right: 50px;
+    width: 220px;
+    margin-top: 3px;
+  }
+  .sub1 p {
+    width: 350px;
+    margin-left: 5vh;
+    word-spacing: 2px;
+    margin-top: 20px;
+  }
+  .bts {
+    border-bottom: 2px solid #4187f6;
+    width: 300px;
+    margin-top: 70px;
+    margin-left: 58px;
+  }
+  .ktk {
+    width: 150px;
+
+    margin-top: -21px;
+    margin-left: 130px;
+  }
+  .ktk p {
+    color: white;
+    text-align: center;
+    background: #4187f6;
+    padding: 10px 20px;
+    border-radius: 6px;
+  }
+
+  .mobil {
+    position: relative;
+    background: white;
+    width: 200px;
+    height: 400px;
+    margin-left: 110px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    border-radius: 20px;
+    float: left;
+  }
+  .motor {
+    position: relative;
+    background: white;
+    width: 200px;
+    height: 400px;
+    margin-left: 110px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    border-radius: 20px;
+    float: left;
+  }
+  .bts2 {
+    border-bottom: 2px solid #4187f6;
+    width: 300px;
+    margin-top: 220vh;
+    margin-left: 58px;
+  }
+  .ktk2 {
+    width: 150px;
+
+    margin-top: -21px;
+    margin-left: 130px;
+  }
+  .ktk2 p {
+    color: white;
+    text-align: center;
+    background: #4187f6;
+    padding: 10px 20px;
+    border-radius: 6px;
+  }
+}
