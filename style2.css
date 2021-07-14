@@ -212,6 +212,22 @@
   color: #4187f6;
   cursor: pointer;
 }
+#contact {
+  margin-top: 50px;
+}
+#contact h2 {
+  color: #4187f6;
+}
+.form-label {
+  color: #4187f6;
+}
+.uls a {
+  text-decoration: none;
+  color: rgb(216, 210, 210);
+}
+.uls a:hover {
+  color: #4187f6;
+}
 @media (max-width: 1100px) {
   .container {
     width: 410px;
