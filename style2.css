@@ -102,6 +102,7 @@
 }
 .mobil h3 {
   position: absolute;
+
   background: #4187f6;
   margin-left: 26px;
   margin-top: 50px;
@@ -109,6 +110,7 @@
   border-radius: 10px;
   color: white;
 }
+
 .mobil h4 {
   position: absolute;
   background: white;
