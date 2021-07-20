@@ -105,12 +105,17 @@
 
   background: #4187f6;
   margin-left: 26px;
-  margin-top: 50px;
+  margin-top: 30px;
   padding: 40px 35px;
   border-radius: 10px;
   color: white;
 }
-
+.mobil h3 span {
+  text-decoration: line-through;
+  background: #4187f6;
+  font-size: 14px;
+  margin-left: 6px;
+}
 .mobil h4 {
   position: absolute;
   background: white;
@@ -177,16 +182,22 @@
   position: absolute;
   background: #4187f6;
   margin-left: 26px;
-  margin-top: 50px;
+  margin-top: 40px;
   padding: 40px 35px;
   border-radius: 10px;
   color: white;
+}
+.motor h3 span {
+  text-decoration: line-through;
+  background: #4187f6;
+  font-size: 14px;
+  margin-left: 8px;
 }
 .motor h4 {
   position: absolute;
   background: white;
   margin-left: 60px;
-  margin-top: 170px;
+  margin-top: 178px;
   color: black;
 }
 .motor p {
