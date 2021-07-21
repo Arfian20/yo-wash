@@ -16,7 +16,7 @@
   left: 0;
   width: 100%;
   height: 4px;
-  border-bottom: 5px solid #4187f6;
+  border-bottom: 5px solid #5e5eeb;
   margin-top: 5px;
 }
 .navbar ul {
@@ -32,7 +32,7 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .navbar ul li:hover {
-  color: #4187f6;
+  color: #5e5eeb;
   cursor: pointer;
 }
 .navbar ul li .kc:hover {
@@ -61,7 +61,7 @@
   margin-top: 20px;
 }
 .bts {
-  border-bottom: 2px solid #4187f6;
+  border-bottom: 2px solid #5e5eeb;
   width: 600px;
   margin-top: 70px;
   margin-left: 383px;
@@ -75,7 +75,7 @@
 .ktk p {
   color: white;
   text-align: center;
-  background: #4187f6;
+  background: #5e5eeb;
   padding: 10px 20px;
   border-radius: 6px;
 }
@@ -103,7 +103,7 @@
 .mobil h3 {
   position: absolute;
 
-  background: #4187f6;
+  background: #5e5eeb;
   margin-left: 26px;
   margin-top: 30px;
   padding: 40px 35px;
@@ -112,7 +112,7 @@
 }
 .mobil h3 span {
   text-decoration: line-through;
-  background: #4187f6;
+  background: #5e5eeb;
   font-size: 14px;
   margin-left: 6px;
 }
@@ -134,16 +134,16 @@
 .mobil a {
   position: absolute;
   text-decoration: none;
-  background: #4187f6;
+  background: #5e5eeb;
   border-radius: 10px;
-  border: #4187f6;
+  border: #5e5eeb;
   margin-left: 65px;
   margin-top: 340px;
   padding: 10px 20px;
   color: white;
 }
 .bts2 {
-  border-bottom: 2px solid #4187f6;
+  border-bottom: 2px solid #5e5eeb;
   width: 600px;
   margin-top: 550px;
   margin-left: 383px;
@@ -156,13 +156,13 @@
 .ktk2 p {
   color: white;
   text-align: center;
-  background: #4187f6;
+  background: #5e5eeb;
   padding: 10px 20px;
   border-radius: 6px;
 }
 .mobil a:hover {
   background: white;
-  border: 2px solid #4187f6;
+  border: 2px solid #5e5eeb;
   color: #4187f6;
   cursor: pointer;
 }
@@ -180,7 +180,7 @@
 }
 .motor h3 {
   position: absolute;
-  background: #4187f6;
+  background: #5e5eeb;
   margin-left: 26px;
   margin-top: 40px;
   padding: 40px 35px;
@@ -189,7 +189,7 @@
 }
 .motor h3 span {
   text-decoration: line-through;
-  background: #4187f6;
+  background: #5e5eeb;
   font-size: 14px;
   margin-left: 8px;
 }
@@ -211,9 +211,9 @@
 .motor a {
   position: absolute;
   text-decoration: none;
-  background: #4187f6;
+  background: #5e5eeb;
   border-radius: 10px;
-  border: #4187f6;
+  border: #5e5eeb;
   margin-left: 65px;
   margin-top: 340px;
   padding: 10px 20px;
@@ -221,25 +221,28 @@
 }
 .motor a:hover {
   background: white;
-  border: 2px solid #4187f6;
-  color: #4187f6;
+  border: 2px solid #5e5eeb;
+  color: #5e5eeb;
   cursor: pointer;
 }
 #contact {
   margin-top: 50px;
 }
 #contact h2 {
-  color: #4187f6;
+  color: #5e5eeb;
 }
 .form-label {
-  color: #4187f6;
+  color: #5e5eeb;
 }
 .uls a {
   text-decoration: none;
   color: rgb(216, 210, 210);
 }
 .uls a:hover {
-  color: #4187f6;
+  color: #5e5eeb;
+}
+.btn-kirim {
+  background-color: #5e5eeb;
 }
 @media (max-width: 1100px) {
   .container {
@@ -337,9 +340,9 @@
     border-radius: 6px;
   }
 }
-@media (max-width: 900px) {
+/* @media (min-width: 1024px) {
   .container {
-    width: 410px;
+    width: 1024px;
   }
   .navbar {
     position: relative;
@@ -351,7 +354,7 @@
     margin-top: 5px;
   }
   .navbar ul {
-    margin-left: -60px;
+    margin-left: 15vh;
   }
   .navbar ul li {
     color: rgb(216, 210, 210);
@@ -361,13 +364,13 @@
   }
   .lg img {
     position: relative;
-    right: 50px;
+    right: -90px;
     width: 220px;
     margin-top: 3px;
   }
   .sub1 p {
     width: 350px;
-    margin-left: 5vh;
+    margin-left: 24vh;
     word-spacing: 2px;
     margin-top: 20px;
   }
@@ -375,13 +378,13 @@
     border-bottom: 2px solid #4187f6;
     width: 300px;
     margin-top: 70px;
-    margin-left: 58px;
+    margin-left: 26vh;
   }
   .ktk {
     width: 150px;
 
     margin-top: -21px;
-    margin-left: 130px;
+    margin-left: 32vh;
   }
   .ktk p {
     color: white;
@@ -396,7 +399,7 @@
     background: white;
     width: 200px;
     height: 400px;
-    margin-left: 110px;
+    margin-left: 100px;
     margin-bottom: 20px;
     margin-top: 50px;
     border-radius: 20px;
@@ -408,7 +411,7 @@
     width: 200px;
     height: 400px;
     margin-left: 110px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     margin-top: 50px;
     border-radius: 20px;
     float: left;
@@ -416,14 +419,14 @@
   .bts2 {
     border-bottom: 2px solid #4187f6;
     width: 300px;
-    margin-top: 220vh;
-    margin-left: 58px;
+    margin-top: 40vh;
+    margin-left: 26vh;
   }
   .ktk2 {
     width: 150px;
 
     margin-top: -21px;
-    margin-left: 130px;
+    margin-left: 32vh;
   }
   .ktk2 p {
     color: white;
@@ -432,4 +435,4 @@
     padding: 10px 20px;
     border-radius: 6px;
   }
-}
+} */
