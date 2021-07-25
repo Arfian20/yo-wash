@@ -153,6 +153,11 @@
   margin-top: -21px;
   margin-left: 610px;
 }
+.ktk2 p span {
+  color: white;
+  background: #5e5eeb;
+  font-size: 20px;
+}
 .ktk2 p {
   color: white;
   text-align: center;
