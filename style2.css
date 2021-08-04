@@ -1,7 +1,22 @@
+:root {
+  --ungu: #5e5eeb;
+  --black: #000000;
+  --abu: rgb(216, 210, 210);
+  --putih: #ffffff;
+}
+.light {
+  --ungu: #c7c7c7;
+  --black: #ffffff;
+  --abu: rgb(216, 210, 210);
+  --putih: #5e5eeb;
+}
+
 * {
   margin: 0;
   padding: 0;
-  background: black;
+}
+body {
+  background: var(--black);
 }
 .navbar {
   position: relative;
@@ -16,27 +31,27 @@
   left: 0;
   width: 100%;
   height: 4px;
-  border-bottom: 5px solid #5e5eeb;
+  border-bottom: 5px solid var(--ungu);
   margin-top: 5px;
 }
 .navbar ul {
   list-style: none;
-  margin-left: 20vh;
-  background: black;
+  margin-left: 10vh;
+  background: var(--black);
 }
 .navbar ul li {
-  color: rgb(216, 210, 210);
+  color: var(--abu);
   display: inline-block;
   margin-left: 15vh;
   margin-top: 30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .navbar ul li:hover {
-  color: #5e5eeb;
+  color: var(--ungu);
   cursor: pointer;
 }
 .navbar ul li .kc:hover {
-  color: rgb(216, 210, 210);
+  color: var(--abu);
 }
 .lg img {
   position: relative;
@@ -45,12 +60,12 @@
   margin-top: 3px;
 }
 .sub1 {
-  color: white;
+  color: var(--putih);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   text-align: center;
 }
 .sub1 h1 {
-  color: white;
+  color: var(--putih);
   font-size: 60px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
@@ -61,7 +76,7 @@
   margin-top: 20px;
 }
 .bts {
-  border-bottom: 2px solid #5e5eeb;
+  border-bottom: 2px solid var(--ungu);
   width: 600px;
   margin-top: 70px;
   margin-left: 383px;
@@ -73,15 +88,15 @@
   margin-left: 610px;
 }
 .ktk p {
-  color: white;
+  color: var(--putih);
   text-align: center;
-  background: #5e5eeb;
+  background: var(--ungu);
   padding: 10px 20px;
   border-radius: 6px;
 }
 .daftar1 {
   position: relative;
-  background: white;
+  background: var(--ungu);
   width: 200px;
   height: 400px;
   border-radius: 10px;
@@ -91,7 +106,7 @@
 }
 .mobil {
   position: relative;
-  background: white;
+  background: var(--putih);
   width: 200px;
   top: calc(50% - 200px);
   height: 400px;
@@ -105,48 +120,47 @@
 .mobil h3 {
   position: absolute;
 
-  background: #5e5eeb;
+  background: var(--ungu);
   margin-left: 26px;
   margin-top: 30px;
   padding: 40px 35px;
   border-radius: 10px;
-  color: white;
+  color: var(--putih);
 }
 
 .mobil h3 span {
   text-decoration: line-through;
-  background: #5e5eeb;
+  background: var(--ungu);
   font-size: 14px;
   margin-left: 6px;
 }
 .mobil h4 {
   position: absolute;
-  background: white;
+  background: var(--putih);
   margin-left: 60px;
   margin-top: 170px;
-  color: black;
+  color: var(--black);
 }
 .mobil p {
   position: absolute;
-  background: white;
+  background: var(--putih);
   margin-left: 26px;
   margin-top: 200px;
-
-  color: black;
+  color: var(--black);
 }
 .mobil a {
   position: absolute;
   text-decoration: none;
-  background: #5e5eeb;
+  background: var(--ungu);
   border-radius: 10px;
-  border: #5e5eeb;
+  border: var(--ungu);
   margin-left: 65px;
   margin-top: 340px;
   padding: 10px 20px;
-  color: white;
+  color: var(--putih);
 }
 .bts2 {
-  border-bottom: 2px solid #5e5eeb;
+  border-bottom: 2px solid var(--ungu);
   width: 600px;
   margin-top: 550px;
   margin-left: 383px;
@@ -157,27 +171,27 @@
   margin-left: 610px;
 }
 .ktk2 p span {
-  color: white;
-  background: #5e5eeb;
+  color: var(--putih);
+  background: var(--ungu);
   font-size: 20px;
 }
 .ktk2 p {
-  color: white;
+  color: var(--putih);
   text-align: center;
-  background: #5e5eeb;
+  background: var(--ungu);
   padding: 10px 20px;
   border-radius: 6px;
 }
 .mobil a:hover {
-  background: white;
-  border: 2px solid #5e5eeb;
-  color: #4187f6;
+  background: var(--putih);
+  border: 2px solid var(--ungu);
+  color: var(--ungu);
   cursor: pointer;
 }
 
 .motor {
   position: relative;
-  background: white;
+  background: var(--putih);
   width: 200px;
   height: 400px;
   margin-left: 195px;
@@ -188,69 +202,159 @@
 }
 .motor h3 {
   position: absolute;
-  background: #5e5eeb;
+  background: var(--ungu);
   margin-left: 26px;
   margin-top: 40px;
   padding: 40px 35px;
   border-radius: 10px;
-  color: white;
+  color: var(--putih);
 }
 .motor h3 span {
   text-decoration: line-through;
-  background: #5e5eeb;
+  background: var(--ungu);
   font-size: 14px;
   margin-left: 8px;
 }
 .motor h4 {
   position: absolute;
-  background: white;
+  background: var(--putih);
   margin-left: 60px;
   margin-top: 178px;
-  color: black;
+  color: var(--black);
 }
 .motor p {
   position: absolute;
-  background: white;
+  background: var(--putih);
   margin-left: 26px;
   margin-top: 200px;
 
-  color: black;
+  color: var(--black);
 }
 .motor a {
   position: absolute;
   text-decoration: none;
-  background: #5e5eeb;
+  background: var(--ungu);
   border-radius: 10px;
-  border: #5e5eeb;
+  border: var(--ungu);
   margin-left: 65px;
   margin-top: 340px;
   padding: 10px 20px;
-  color: white;
+  color: var(--putih);
 }
 .motor a:hover {
-  background: white;
-  border: 2px solid #5e5eeb;
-  color: #5e5eeb;
+  background: var(--putih);
+  border: 2px solid var(--ungu);
+  color: var(--ungu);
+  cursor: pointer;
+}
+.hmt {
+  position: relative;
+  background: var(--putih);
+  width: 200px;
+  height: 400px;
+  margin-left: 195px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  border-radius: 20px;
+  float: left;
+}
+.hmt h3 {
+  position: absolute;
+  background: var(--ungu);
+  margin-left: 26px;
+  margin-top: 40px;
+  padding: 40px 35px;
+  border-radius: 10px;
+  color: var(--putih);
+}
+.hmt h3 span {
+  text-decoration: line-through;
+  background: var(--ungu);
+  font-size: 14px;
+  margin-left: 8px;
+}
+.hmt h4 {
+  position: absolute;
+  background: var(--putih);
+  margin-left: 60px;
+  margin-top: 178px;
+  color: var(--black);
+}
+.hmt p {
+  position: absolute;
+  background: var(--putih);
+  margin-left: 26px;
+  margin-top: 200px;
+
+  color: var(--black);
+}
+.hmt a {
+  position: absolute;
+  text-decoration: none;
+  background: var(--ungu);
+  border-radius: 10px;
+  border: var(--ungu);
+  margin-left: 65px;
+  margin-top: 340px;
+  padding: 10px 20px;
+  color: var(--putih);
+}
+.hmt a:hover {
+  background: var(--putih);
+  border: 2px solid var(--ungu);
+  color: var(--ungu);
   cursor: pointer;
 }
 #contact {
   margin-top: 50px;
 }
 #contact h2 {
-  color: #5e5eeb;
+  color: var(--ungu);
 }
 .form-label {
-  color: #5e5eeb;
+  color: var(--ungu);
 }
 .uls a {
   text-decoration: none;
-  color: rgb(216, 210, 210);
+  color: var(--abu);
 }
 .uls a:hover {
-  color: #5e5eeb;
+  color: var(--ungu);
 }
 .btn-kirim {
-  background-color: #5e5eeb;
+  background-color: var(--ungu);
+}
+.themeSwitch {
+  position: relative;
+  height: 30px;
+  width: 30px;
+  left: -30px;
+  background: var(--putih);
+  display: inline-flex;
+  border-radius: 50%;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+.themeSwitch::before {
+  content: "\f185";
+  font-family: fontAwesome;
+  color: var(--ungu);
+  font-size: 20px;
+  z-index: 2;
+}
+.themeSwitch.active::before {
+  content: "\f186";
+  font-family: fontAwesome;
+  color: var(--ungu);
+  background: var(--abu);
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
 }
 @media (max-width: 1100px) {
   .container {
@@ -266,13 +370,13 @@
     margin-top: 5px;
   }
   .navbar ul {
-    margin-left: -60px;
+    margin-left: -75px;
   }
   .navbar ul li {
-    color: rgb(216, 210, 210);
+    color: var(--abu);
     display: inline-block;
-    margin-top: 20px;
-    margin-left: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
   }
   .lg img {
     position: relative;
@@ -298,7 +402,7 @@
     margin-left: 130px;
   }
   .ktk p {
-    color: white;
+    color: var(--putih);
     text-align: center;
 
     padding: 10px 20px;
@@ -307,7 +411,7 @@
 
   .mobil {
     position: relative;
-    background: white;
+    background: var(--putih);
     width: 200px;
     height: 400px;
     margin-left: 110px;
@@ -318,7 +422,18 @@
   }
   .motor {
     position: relative;
-    background: white;
+    background: var(--putih);
+    width: 200px;
+    height: 400px;
+    margin-left: 110px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    border-radius: 20px;
+    float: left;
+  }
+  .hmt {
+    position: relative;
+    background: var(--putih);
     width: 200px;
     height: 400px;
     margin-left: 110px;
@@ -339,11 +454,15 @@
     margin-left: 130px;
   }
   .ktk2 p {
-    color: white;
+    color: var(--putih);
     text-align: center;
 
     padding: 10px 20px;
     border-radius: 6px;
+  }
+  .themeSwitch {
+    left: -18px;
+    margin-top: 5px;
   }
 }
 /* @media (min-width: 1024px) {

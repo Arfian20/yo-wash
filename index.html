@@ -7,14 +7,16 @@
     <title>yo-wash</title>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
     <link rel="stylesheet" href="style2.css" />
+    <script src="https://kit.fontawesome.com/70310fb7f3.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <div class="container">
       <div class="navbar">
         <div class="lg"><img src="img/11.png" alt="" /></div>
         <ul>
+          <li><span class="themeSwitch"></span></li>
           <li>About</li>
           <li>Service</li>
           <li class="uls"><a href="index2.html" target="blank">Ulasan</a></li>
@@ -81,30 +83,32 @@
       </div>
       <!-- Harga Motor -->
 
-      <div class="motor" style="--i: -1">
+      <div class="hmt" style="--i: -1">
         <h3>Rp 45.000<!--<br /><span>Rp 45.000</span>--></h3>
         <h4>Service 1</h4>
         <p>Selang <br />konektor kran<br />kanebo <br />Wash Mitt <br />Microfiber <br />sikat <br />Snow foam</p>
         <a href="https://api.whatsapp.com/send?phone=6281298221613&text=Order%20Paket%20Hemat%20service%201%3A%0A%0ANama%3A%0AAlamat%3A">Order</a>
       </div>
-      <div class="motor" style="--i: -1">
+      <div class="hmt" style="--i: -1">
         <h3>Rp 35.000<!--<br /><span>Rp 35.000</span>--></h3>
         <h4>Service 2</h4>
         <p>Kanebo <br />Sikat <br />Wash mitt <br />Microfiber <br />Snow foam</p>
         <a href="https://api.whatsapp.com/send?phone=6281298221613&text=Order%20Paket%20Hemat%20service%202%3A%0A%0ANama%3A%0AAlamat%3A">Order</a>
       </div>
-      <div class="motor" style="--i: -1">
+      <div class="hmt" style="--i: -1">
         <h3>Rp 25.000<!--<br /><span>Rp 25.000</span>--></h3>
         <h4>Service 3</h4>
         <p>Sikat <br />Wash mitt <br />Microfiber</p>
         <a href="https://api.whatsapp.com/send?phone=6281298221613&text=Order%20Paket%20Hemat%20service%203%3A%0A%0ANama%3A%0AAlamat%3A">Order</a>
       </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-    <script src="aos.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script type="text/javascript">
-      AOS.init();
+    <script>
+      let themeSwitch = document.querySelector(".themeSwitch");
+      let body = document.querySelector("body");
+      themeSwitch.onclick = function () {
+        themeSwitch.classList.toggle("active");
+        body.classList.toggle("light");
+      };
     </script>
   </body>
 </html>
