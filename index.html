@@ -63,13 +63,13 @@
         <h3>Rp 12.000<!--<br /><span>Rp 12.000</span>--></h3>
         <h4>Service 1</h4>
         <p>Selang <br />konektor kran<br />kanebo <br />Wash Mitt <br />Microfiber <br />sikat <br />Snow foam</p>
-        <a href="https://api.whatsapp.com/send?phone=6281298221613&text=Order%20Motor%20service%201%3A%0A%0ANama%3A%0AAlamat%3A">Order</a>
+        <a onclick="total4(12, 1000)" href="https://api.whatsapp.com/send?phone=6281298221613&text=Order%20Motor%20service%201%3A%0A%0ANama%3A%0AAlamat%3A">Order</a>
       </div>
       <div class="motor" style="--i: -1">
         <h3>Rp 10.000<!--<br /><span>Rp 10.000</span>--></h3>
         <h4>Service 2</h4>
         <p>Kanebo <br />Sikat <br />Wash mitt <br />Microfiber <br />Snow foam</p>
-        <a href="https://api.whatsapp.com/send?phone=6281298221613&text=Order%20Motor%20service%202%3A%0A%0ANama%3A%0AAlamat%3A">Order</a>
+        <a onclick="total5(10, 1000)" href="https://api.whatsapp.com/send?phone=6281298221613&text=Order%20Motor%20service%202%3A%0A%0ANama%3A%0AAlamat%3A">Order</a>
       </div>
       <div class="motor" style="--i: -1">
         <h3>Rp 7.000<!--<br /><span>Rp 7.000</span>--></h3>
@@ -87,19 +87,19 @@
         <h3>Rp 45.000<!--<br /><span>Rp 45.000</span>--></h3>
         <h4>Service 1</h4>
         <p>Selang <br />konektor kran<br />kanebo <br />Wash Mitt <br />Microfiber <br />sikat <br />Snow foam</p>
-        <a href="https://api.whatsapp.com/send?phone=6281298221613&text=Order%20Paket%20Hemat%20service%201%3A%0A%0ANama%3A%0AAlamat%3A">Order</a>
+        <a onclick="total3(45, 1000)" href="https://api.whatsapp.com/send?phone=6281298221613&text=Order%20Paket%20Hemat%20service%201%3A%0A%0ANama%3A%0AAlamat%3A">Order</a>
       </div>
       <div class="hmt" style="--i: -1">
         <h3>Rp 35.000<!--<br /><span>Rp 35.000</span>--></h3>
         <h4>Service 2</h4>
         <p>Kanebo <br />Sikat <br />Wash mitt <br />Microfiber <br />Snow foam</p>
-        <a href="https://api.whatsapp.com/send?phone=6281298221613&text=Order%20Paket%20Hemat%20service%202%3A%0A%0ANama%3A%0AAlamat%3A">Order</a>
+        <a onclick="total(35, 1000)" href="https://api.whatsapp.com/send?phone=6281298221613&text=Order%20Paket%20Hemat%20service%202%3A%0A%0ANama%3A%0AAlamat%3A">Order</a>
       </div>
       <div class="hmt" style="--i: -1">
         <h3>Rp 25.000<!--<br /><span>Rp 25.000</span>--></h3>
         <h4>Service 3</h4>
         <p>Sikat <br />Wash mitt <br />Microfiber</p>
-        <a href="https://api.whatsapp.com/send?phone=6281298221613&text=Order%20Paket%20Hemat%20service%203%3A%0A%0ANama%3A%0AAlamat%3A">Order</a>
+        <a onclick="total2(25, 1000)" href="https://api.whatsapp.com/send?phone=6281298221613&text=Order%20Paket%20Hemat%20service%203%3A%0A%0ANama%3A%0AAlamat%3A">Order</a>
       </div>
     </div>
     <script>
@@ -110,6 +110,21 @@
         body.classList.toggle("light");
       };
       alert("Hello!! Selamat datang di website yo-wash");
+      function total(h1, h2) {
+        alert("Anda memesan paket hemat service 2. Total Harga: " + h1 * h2);
+      }
+      function total2(h3, h4) {
+        alert("Anda memesan paket hemat service 3. Total Harga: " + h3 * h4);
+      }
+      function total3(h5, h6) {
+        alert("Anda memesan paket hemat service 1. Total Harga: " + h5 * h6);
+      }
+      function total4(h7, h8) {
+        alert("Anda memesan motor service 1. Total Harga: " + h7 * h8);
+      }
+      function total5(h9, h10) {
+        alert("Anda memesan motor service 2. Total Harga: " + h9 * h10);
+      }
     </script>
   </body>
 </html>
