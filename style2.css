@@ -75,10 +75,29 @@ body {
   word-spacing: 2px;
   margin-top: 20px;
 }
+.sub1 .satu {
+  position: relative;
+  width: 200px;
+  left: 164vh;
+  top: -70vh;
+}
+.sub1 .dua {
+  position: relative;
+  width: 500px;
+  left: -65vh;
+  top: -40vh;
+}
+.sub1 .tiga {
+  position: relative;
+  width: 500px;
+  left: 1vh;
+  top: 5vh;
+  border-radius: 20px;
+}
 .bts {
   border-bottom: 2px solid var(--ungu);
   width: 600px;
-  margin-top: 70px;
+  margin-top: 80px;
   margin-left: 383px;
 }
 .ktk {
@@ -366,7 +385,7 @@ body {
   transform: translateX(0);
   opacity: 1;
 }
-@media (max-width: 1100px) {
+@media (max-width: 900px) {
   .container {
     width: 410px;
   }
@@ -484,7 +503,151 @@ body {
     transform: translateX(0);
     opacity: 1;
   }
+  .sub1 .satu {
+    position: relative;
+    width: 80px;
+    left: 32vh;
+    top: -35vh;
+    z-index: 2000;
+  }
+  .sub1 .dua {
+    position: relative;
+    width: 200px;
+    left: -26vh;
+    top: -26vh;
+  }
+  .sub1 .tiga {
+    position: relative;
+    width: 250px;
+    left: 1vh;
+    top: 3vh;
+    border-radius: 20px;
+  }
 }
+/* @media (max-width: 1024px) {
+  .navbar {
+    position: relative;
+    display: flex;
+    z-index: 200000;
+    width: 100%;
+  }
+  .navbar:after {
+    margin-top: 5px;
+  }
+  .navbar ul {
+    margin-left: 10vh;
+  }
+  .navbar ul li {
+    color: var(--abu);
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 25px;
+  }
+  .lg img {
+    position: relative;
+    right: 10px;
+    width: 220px;
+    margin-top: 3px;
+  }
+  .sub1 p {
+    width: 350px;
+    margin-left: 25vh;
+    word-spacing: 2px;
+    margin-top: 20px;
+  }
+  .bts {
+    width: 300px;
+    margin-top: 70px;
+    margin-left: 26vh;
+  }
+  .ktk {
+    width: 150px;
+
+    margin-top: -21px;
+    margin-left: 32vh;
+  }
+  .ktk p {
+    color: var(--putih);
+    text-align: center;
+
+    padding: 10px 20px;
+    border-radius: 6px;
+  }
+
+  .mobil {
+    position: relative;
+    background: var(--putih);
+    width: 200px;
+    height: 400px;
+    margin-left: 110px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    border-radius: 20px;
+    float: left;
+  }
+  .motor {
+    position: relative;
+    background: var(--putih);
+    width: 200px;
+    height: 400px;
+    margin-left: 110px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    border-radius: 20px;
+    float: left;
+  }
+  .hmt {
+    position: relative;
+    background: var(--putih);
+    width: 200px;
+    height: 400px;
+    margin-left: 110px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    border-radius: 20px;
+    float: left;
+  }
+  .bts2 {
+    width: 300px;
+    margin-top: 220vh;
+    margin-left: 58px;
+  }
+  .ktk2 {
+    width: 150px;
+
+    margin-top: -21px;
+    margin-left: 130px;
+  }
+  .ktk2 p {
+    color: var(--putih);
+    text-align: center;
+
+    padding: 10px 20px;
+    border-radius: 6px;
+  }
+  .themeSwitch {
+    left: -18px;
+    margin-top: 5px;
+  }
+  .reveal {
+    position: relative;
+    transform: translateX(-200px);
+    opacity: 0;
+    transition: all 2s ease;
+  }
+  .reveal.active {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  .sub1 .tiga {
+    position: relative;
+    width: 300px;
+    left: 1vh;
+    top: 3vh;
+    border-radius: 20px;
+  }
+} */
 /* @media (min-width: 1024px) {
   .container {
     width: 1024px;
