@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YL</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/70310fb7f3.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container-satu">
+      <img src="img/2.png" alt="" />
+      <ul class="nav">
+        <li><a href="">Home</a></li>
+        <li><a href="index2.html">Service</a></li>
+        <li><a href="index3.html">Ulasan</a></li>
+        <li><a href="index4.html">About</a></li>
+      </ul>
+      <div class="menu">
+        <ul>
+          <li>
+            <span><ion-icon name="menu-outline"></ion-icon></span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- container dua -->
+    <div class="container-dua">
+      <img src="img/1.png" alt="" />
+    </div>
+    <!-- container tiga -->
+    <div class="container-tiga">
+      <div class="kontent">
+        <h3>SELF SERVICE</h3>
+        <div class="sbl1"></div>
+        <p>Laundry kami memiliki peralatan dan perlengkapan barkualitas dan terbaik untuk menghasilkan bersih yang luar biasa.</p>
+      </div>
+      <div class="kontent">
+        <h3>SAFE & CLEAN</h3>
+        <div class="sbl2"></div>
+        <p>Anda dapat yakin bahwa kebersihan adalah prioritas utama kami. Kami selalu ingin pelanggan kami merasa aman, itu sebabnya kami menjaga kebersihan pelanggan dengan serius.</p>
+      </div>
+      <div class="kontent">
+        <h3>OPEN 24 HOURS</h3>
+        <div class="sbl3"></div>
+        <p>We want our customers to be able to access our amazing laundromats whenever they please. That's why we are open 24/7 at select stores.</p>
+      </div>
+    </div>
+    <!-- container empat -->
+    <div class="container-empat">
+      <div class="lg">
+        <img src="img/3.png" alt="" />
+      </div>
+      <div class="isi">
+        <h3>About YL</h3>
+        <p>Setelah Anda mengunjungi website kami. Anda benar-benar akan "mengalami perbedaan". Kami ingin memberikan setiap pelanggan pengalaman laundry dengan konsep dan pilihan yang berbeda dan terbaik yang pernah anda miliki.</p>
+      </div>
+    </div>
+    <!-- container-lima -->
+    <div class="container-lima">
+      <div class="lg2">
+        <img src="img/2.png" alt="" />
+      </div>
+      <div class="almt">
+        <div class="lc"></div>
+        <p>Jl. Raya Pasar Kecapi, Jatiwarna, Pondok Melati - Bekasi</p>
+      </div>
+    </div>
+    <script>
+      const menu = document.querySelector(".menu");
+      const nav = document.querySelector(".nav");
+      menu.onclick = function () {
+        menu.classList.toggle("active");
+        nav.classList.toggle("active");
+      };
+    </script>
+  </body>
+</html>

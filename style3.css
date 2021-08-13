@@ -1,0 +1,37 @@
+/* :root {
+  --ungu: #5e5eeb;
+  --black: #000000;
+  --abu: rgb(216, 210, 210);
+  --putih: #ffffff;
+}
+.light {
+  --ungu: #c7c7c7;
+  --black: #ffffff;
+  --abu: #5e5eeb;
+  --putih: #5e5eeb;
+} */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+#contact {
+  margin-top: 50px;
+}
+#contact h2 {
+  color: rgb(85, 144, 255);
+}
+.form-label {
+  color: rgb(85, 144, 255);
+}
+.uls a {
+  text-decoration: none;
+  color: rgb(85, 144, 255);
+}
+.uls a:hover {
+  color: rgb(85, 144, 255);
+}
+.btn-kirim {
+  background-color: rgb(85, 144, 255);
+}

@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+}
+.container-satu {
+  position: relative;
+  /* max-width: 1359px; */
+  background-color: black;
+  display: flex;
+}
+img {
+  width: 8%;
+  margin-bottom: 10px;
+}
+.nav {
+  list-style: none;
+  display: flex;
+}
+.nav li {
+  margin: 60px;
+  font-size: 1.2em;
+  font-family: "Ubuntu", sans-serif;
+}
+.nav li a {
+  text-decoration: none;
+  color: white;
+}
+.nav li a:hover {
+  color: rgb(85, 144, 255);
+  cursor: pointer;
+}
+.menu {
+  margin-top: 12px;
+  cursor: pointer;
+  visibility: hidden;
+}
+.menu::before {
+  content: "\f0c9";
+  color: rgb(85, 144, 255);
+  font-family: fontAwesome;
+  font-size: 20px;
+}
+.menu.active::before {
+  content: "\f00d";
+  color: rgb(85, 144, 255);
+  font-family: fontAwesome;
+  font-size: 20px;
+}
+.container-dua {
+  /* max-width: 1359px; */
+  display: flex;
+}
+.container-dua img {
+  width: 100%;
+}
+.container-tiga {
+  display: flex;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  padding: 60px;
+}
+.kontent {
+  margin: 0 40px;
+}
+.kontent p {
+  margin-top: 30px;
+  font-family: "Ubuntu", sans-serif;
+  line-height: 20px;
+}
+.kontent h3 {
+  margin-bottom: 40px;
+  font-family: "Ubuntu", sans-serif;
+}
+.sbl1::before {
+  content: "\f553";
+  color: rgb(85, 144, 255);
+  font-family: fontAwesome;
+  font-size: 50px;
+  border: 3px solid rgb(85, 144, 255);
+  padding: 20px;
+  border-radius: 50%;
+}
+.sbl1:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.sbl2::before {
+  content: "\f005";
+  color: rgb(85, 144, 255);
+  font-family: fontAwesome;
+  font-size: 50px;
+  border: 3px solid rgb(85, 144, 255);
+  padding: 20px;
+  border-radius: 50%;
+}
+.sbl2:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.sbl3::before {
+  content: "\f017";
+  color: rgb(85, 144, 255);
+  font-family: fontAwesome;
+  font-size: 50px;
+  border: 3px solid rgb(85, 144, 255);
+  padding: 20px;
+  border-radius: 50%;
+}
+.sbl3:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.container-empat {
+  display: flex;
+  background-color: rgb(219, 219, 219);
+  padding: 60px;
+  margin: auto;
+  font-family: "Ubuntu", sans-serif;
+}
+.isi h3 {
+  margin-bottom: 10px;
+}
+.isi {
+  align-items: center;
+  justify-items: center;
+  margin-left: -150px;
+  margin-top: 30px;
+  font-family: "Ubuntu", sans-serif;
+}
+.lg img {
+  width: 40%;
+}
+.container-lima {
+  display: flex;
+  background-color: black;
+  align-items: center;
+  font-family: "Ubuntu", sans-serif;
+}
+.lg2 img {
+  width: 40%;
+  margin-left: 60px;
+}
+.lc::before {
+  content: "\f689";
+  color: rgb(85, 144, 255);
+  font-family: fontAwesome;
+  font-size: 50px;
+}
+.almt {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.almt p {
+  margin-left: 10px;
+}
+@media (min-width: 768px) {
+  .container-satu {
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .nav li {
+    margin: 40px;
+  }
+  .container-dua {
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .isi {
+    margin-left: -5px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container-satu {
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .container-satu img {
+    width: 30%;
+    z-index: 2;
+  }
+  .nav {
+    position: absolute;
+    flex-direction: column;
+    right: 0;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    margin-top: 70px;
+    transition: all 1s;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .nav.active {
+    opacity: 1;
+    visibility: visible;
+  }
+  .menu {
+    z-index: 2;
+    visibility: visible;
+  }
+  .menu::before {
+    font-size: 30px;
+  }
+  .container-tiga {
+    flex-direction: column;
+  }
+  .kontent h3 {
+    margin-top: 30px;
+  }
+  .container-empat {
+    flex-direction: column;
+  }
+  .lg img {
+    margin-left: 90px;
+  }
+  .isi {
+    text-align: center;
+    margin-left: 15px;
+  }
+  .container-lima {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .almt {
+    margin-left: 10px;
+  }
+}
