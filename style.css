@@ -199,7 +199,6 @@ img {
     align-items: center;
     justify-content: space-evenly;
     background-color: black;
-    margin-top: 70px;
     transition: all 1s;
     visibility: hidden;
     opacity: 0;
@@ -207,6 +206,7 @@ img {
   .nav.active {
     opacity: 1;
     visibility: visible;
+    transform: translateY(10%);
   }
   .menu {
     z-index: 2;
