@@ -1,4 +1,4 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
 }
@@ -7,13 +7,14 @@ body {
 }
 .container-satu {
   position: relative;
-  /* max-width: 1359px; */
+
   background-color: black;
   display: flex;
 }
 img {
   width: 8%;
   margin-bottom: 10px;
+  cursor: pointer;
 }
 .nav {
   list-style: none;
@@ -52,7 +53,6 @@ img {
   font-size: 20px;
 }
 .container-dua {
-  /* max-width: 1359px; */
   display: flex;
 }
 .container-dua img {
@@ -240,4 +240,13 @@ img {
   .almt {
     margin-left: 10px;
   }
+} */
+.satu {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+.satu img {
+  width: 300px;
+  margin: 50px auto;
 }
