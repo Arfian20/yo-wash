@@ -1,4 +1,4 @@
-/* * {
+* {
   margin: 0;
   padding: 0;
 }
@@ -240,8 +240,8 @@ img {
   .almt {
     margin-left: 10px;
   }
-} */
-.satu {
+}
+/* .satu {
   font-family: "Ubuntu", sans-serif;
   text-align: center;
   margin-top: 50px;
@@ -249,4 +249,4 @@ img {
 .satu img {
   width: 300px;
   margin: 50px auto;
-}
+} */
