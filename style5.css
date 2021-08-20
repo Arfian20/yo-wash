@@ -91,6 +91,7 @@
 .lg2 img {
   width: 40%;
   margin-left: 60px;
+  margin-top: 30px;
 }
 .lc::before {
   content: "\f689";

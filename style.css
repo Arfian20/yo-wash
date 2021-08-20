@@ -12,8 +12,8 @@ body {
   display: flex;
 }
 img {
-  width: 8%;
-  margin-bottom: 10px;
+  width: 20%;
+  margin-bottom: -10px;
   cursor: pointer;
 }
 .nav {
@@ -78,7 +78,7 @@ img {
   font-family: "Ubuntu", sans-serif;
 }
 .sbl1::before {
-  content: "\f553";
+  content: "\f54b";
   color: rgb(85, 144, 255);
   font-family: fontAwesome;
   font-size: 50px;
@@ -118,10 +118,12 @@ img {
 }
 .container-empat {
   display: flex;
-  background-color: rgb(219, 219, 219);
+  background-color: rgb(85, 144, 255);
   padding: 60px;
   margin: auto;
   font-family: "Ubuntu", sans-serif;
+  justify-items: center;
+  align-items: center;
 }
 .isi h3 {
   margin-bottom: 10px;
@@ -134,17 +136,20 @@ img {
   font-family: "Ubuntu", sans-serif;
 }
 .lg img {
-  width: 40%;
+  width: 80%;
 }
 .container-lima {
   display: flex;
   background-color: black;
   align-items: center;
   font-family: "Ubuntu", sans-serif;
+  justify-items: center;
 }
 .lg2 img {
   width: 40%;
   margin-left: 60px;
+  margin-bottom: 10px;
+  margin-top: 30px;
 }
 .lc::before {
   content: "\f689";
@@ -186,7 +191,7 @@ img {
     box-sizing: border-box;
   }
   .container-satu img {
-    width: 30%;
+    width: 50%;
     z-index: 2;
   }
   .nav {
@@ -206,7 +211,7 @@ img {
   .nav.active {
     opacity: 1;
     visibility: visible;
-    transform: translateY(10%);
+    transform: translateY(3%);
   }
   .menu {
     z-index: 2;
@@ -223,9 +228,13 @@ img {
   }
   .container-empat {
     flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
   }
   .lg img {
-    margin-left: 90px;
+    margin-left: 40px;
   }
   .isi {
     text-align: center;
